@@ -14,6 +14,8 @@
 		74C9C7F41E544F690033332B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C9C7F31E544F690033332B /* Assets.xcassets */; };
 		74C9C7F71E544F690033332B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C9C7F51E544F690033332B /* LaunchScreen.storyboard */; };
 		74C9C8021E544F690033332B /* DoubanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C8011E544F690033332B /* DoubanTests.swift */; };
+		77791C31904A04D6C017E5B0 /* Pods_DoubanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A59AEF9AB6CA219428010EE /* Pods_DoubanTests.framework */; };
+		C4CCDFEFC032E014E267FF9F /* Pods_Douban.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21229CA9B26DF87925F0EEFC /* Pods_Douban.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21229CA9B26DF87925F0EEFC /* Pods_Douban.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Douban.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E75EC0DED3DEFC6846209B /* Pods-Douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.debug.xcconfig"; sourceTree = "<group>"; };
+		492EE18CB21EA7712E08C96B /* Pods-DoubanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanTests/Pods-DoubanTests.release.xcconfig"; sourceTree = "<group>"; };
+		52DFC7309CC09027BE0C3531 /* Pods-DoubanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanTests/Pods-DoubanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74C9C7E71E544F680033332B /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C9C7EA1E544F680033332B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74C9C7EC1E544F680033332B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		74C9C7FD1E544F690033332B /* DoubanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C9C8011E544F690033332B /* DoubanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanTests.swift; sourceTree = "<group>"; };
 		74C9C8031E544F690033332B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A59AEF9AB6CA219428010EE /* Pods_DoubanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoubanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B974C709072AFB6F49AF9932 /* Pods-Douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CCDFEFC032E014E267FF9F /* Pods_Douban.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77791C31904A04D6C017E5B0 /* Pods_DoubanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A46280B2741CCC633F72C20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25E75EC0DED3DEFC6846209B /* Pods-Douban.debug.xcconfig */,
+				B974C709072AFB6F49AF9932 /* Pods-Douban.release.xcconfig */,
+				52DFC7309CC09027BE0C3531 /* Pods-DoubanTests.debug.xcconfig */,
+				492EE18CB21EA7712E08C96B /* Pods-DoubanTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		74C9C7DE1E544F680033332B = {
 			isa = PBXGroup;
 			children = (
 				74C9C7E91E544F680033332B /* Douban */,
 				74C9C8001E544F690033332B /* DoubanTests */,
 				74C9C7E81E544F680033332B /* Products */,
+				3A46280B2741CCC633F72C20 /* Pods */,
+				765001C4F4B03F2986BF49B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,15 @@
 			path = DoubanTests;
 			sourceTree = "<group>";
 		};
+		765001C4F4B03F2986BF49B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21229CA9B26DF87925F0EEFC /* Pods_Douban.framework */,
+				9A59AEF9AB6CA219428010EE /* Pods_DoubanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74C9C8061E544F690033332B /* Build configuration list for PBXNativeTarget "Douban" */;
 			buildPhases = (
+				6C445022BE428CA78A34F32A /* [CP] Check Pods Manifest.lock */,
 				74C9C7E31E544F680033332B /* Sources */,
 				74C9C7E41E544F680033332B /* Frameworks */,
 				74C9C7E51E544F680033332B /* Resources */,
+				785F18A3D5C7A717A13EB60E /* [CP] Embed Pods Frameworks */,
+				A0DE25A6167AACC1465F205F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74C9C8091E544F690033332B /* Build configuration list for PBXNativeTarget "DoubanTests" */;
 			buildPhases = (
+				12EECE85F197A14A35FCB312 /* [CP] Check Pods Manifest.lock */,
 				74C9C7F91E544F690033332B /* Sources */,
 				74C9C7FA1E544F690033332B /* Frameworks */,
 				74C9C7FB1E544F690033332B /* Resources */,
+				6E77A24E490B689F4AF137DC /* [CP] Embed Pods Frameworks */,
+				3FD55716A89182C67FA83F8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +236,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12EECE85F197A14A35FCB312 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD55716A89182C67FA83F8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoubanTests/Pods-DoubanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C445022BE428CA78A34F32A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E77A24E490B689F4AF137DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoubanTests/Pods-DoubanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		785F18A3D5C7A717A13EB60E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douban/Pods-Douban-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DE25A6167AACC1465F205F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douban/Pods-Douban-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74C9C7E31E544F680033332B /* Sources */ = {
@@ -343,6 +474,7 @@
 		};
 		74C9C8071E544F690033332B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E75EC0DED3DEFC6846209B /* Pods-Douban.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NR2FGATBDQ;
@@ -356,6 +488,7 @@
 		};
 		74C9C8081E544F690033332B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B974C709072AFB6F49AF9932 /* Pods-Douban.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NR2FGATBDQ;
@@ -369,8 +502,8 @@
 		};
 		74C9C80A1E544F690033332B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DFC7309CC09027BE0C3531 /* Pods-DoubanTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = NR2FGATBDQ;
 				INFOPLIST_FILE = DoubanTests/Info.plist;
@@ -384,8 +517,8 @@
 		};
 		74C9C80B1E544F690033332B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492EE18CB21EA7712E08C96B /* Pods-DoubanTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = NR2FGATBDQ;
 				INFOPLIST_FILE = DoubanTests/Info.plist;
@@ -416,6 +549,7 @@
 				74C9C8081E544F690033332B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C9C8091E544F690033332B /* Build configuration list for PBXNativeTarget "DoubanTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +558,7 @@
 				74C9C80B1E544F690033332B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
