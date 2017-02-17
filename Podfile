@@ -12,6 +12,7 @@ target 'Douban' do
     inherit! :search_paths
     # Pods for testing
     pod 'Quick', '~> 1.0.0'
+    pod 'Nimble', '~> 6.0.0'
   end
 
 end

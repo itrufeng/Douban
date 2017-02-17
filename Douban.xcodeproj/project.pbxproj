@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74900CA11E56908E000E59AD /* RecommenderInteractorImplSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74900CA01E56908E000E59AD /* RecommenderInteractorImplSpec.swift */; };
+		74B53A3E1E558EFC00C6C97F /* RecommenderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B53A3D1E558EFC00C6C97F /* RecommenderInteractor.swift */; };
+		74B53A451E5594D100C6C97F /* RecommenderInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B53A441E5594D100C6C97F /* RecommenderInteractorImpl.swift */; };
+		74B53A4B1E5596E100C6C97F /* RecommenderPersenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B53A4A1E5596E100C6C97F /* RecommenderPersenterImpl.swift */; };
+		74B53A4E1E55A6C400C6C97F /* RecommenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B53A4D1E55A6C400C6C97F /* RecommenderViewController.swift */; };
+		74B53A501E55A6DA00C6C97F /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B53A4F1E55A6DA00C6C97F /* RecommendView.swift */; };
+		74B53A521E55A6F900C6C97F /* RecommenderPersenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B53A511E55A6F900C6C97F /* RecommenderPersenter.swift */; };
+		74B53A541E55A70C00C6C97F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B53A531E55A70C00C6C97F /* SecondViewController.swift */; };
 		74C9C7EB1E544F680033332B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C7EA1E544F680033332B /* AppDelegate.swift */; };
-		74C9C7ED1E544F680033332B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C7EC1E544F680033332B /* FirstViewController.swift */; };
-		74C9C7EF1E544F680033332B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9C7EE1E544F680033332B /* SecondViewController.swift */; };
 		74C9C7F21E544F680033332B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C9C7F01E544F680033332B /* Main.storyboard */; };
 		74C9C7F41E544F690033332B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C9C7F31E544F690033332B /* Assets.xcassets */; };
 		74C9C7F71E544F690033332B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C9C7F51E544F690033332B /* LaunchScreen.storyboard */; };
@@ -33,10 +39,16 @@
 		25E75EC0DED3DEFC6846209B /* Pods-Douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.debug.xcconfig"; sourceTree = "<group>"; };
 		492EE18CB21EA7712E08C96B /* Pods-DoubanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanTests/Pods-DoubanTests.release.xcconfig"; sourceTree = "<group>"; };
 		52DFC7309CC09027BE0C3531 /* Pods-DoubanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanTests/Pods-DoubanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74900CA01E56908E000E59AD /* RecommenderInteractorImplSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommenderInteractorImplSpec.swift; sourceTree = "<group>"; };
+		74B53A3D1E558EFC00C6C97F /* RecommenderInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommenderInteractor.swift; path = src/RecommenderInteractor.swift; sourceTree = "<group>"; };
+		74B53A441E5594D100C6C97F /* RecommenderInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommenderInteractorImpl.swift; path = src/RecommenderInteractorImpl.swift; sourceTree = "<group>"; };
+		74B53A4A1E5596E100C6C97F /* RecommenderPersenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommenderPersenterImpl.swift; path = src/RecommenderPersenterImpl.swift; sourceTree = "<group>"; };
+		74B53A4D1E55A6C400C6C97F /* RecommenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommenderViewController.swift; path = src/RecommenderViewController.swift; sourceTree = "<group>"; };
+		74B53A4F1E55A6DA00C6C97F /* RecommendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommendView.swift; path = src/RecommendView.swift; sourceTree = "<group>"; };
+		74B53A511E55A6F900C6C97F /* RecommenderPersenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommenderPersenter.swift; path = src/RecommenderPersenter.swift; sourceTree = "<group>"; };
+		74B53A531E55A70C00C6C97F /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = src/SecondViewController.swift; sourceTree = "<group>"; };
 		74C9C7E71E544F680033332B /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C9C7EA1E544F680033332B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74C9C7EC1E544F680033332B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		74C9C7EE1E544F680033332B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		74C9C7F11E544F680033332B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74C9C7F31E544F690033332B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C9C7F61E544F690033332B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,6 +91,83 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		74B53A3B1E558E5900C6C97F /* Recommender */ = {
+			isa = PBXGroup;
+			children = (
+				74B53A461E55954C00C6C97F /* View */,
+				74B53A3F1E55944600C6C97F /* Persenter */,
+				74B53A3C1E558EAE00C6C97F /* Interactor */,
+			);
+			name = Recommender;
+			sourceTree = "<group>";
+		};
+		74B53A3C1E558EAE00C6C97F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				74B53A3D1E558EFC00C6C97F /* RecommenderInteractor.swift */,
+				74B53A431E5594AC00C6C97F /* impl */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		74B53A3F1E55944600C6C97F /* Persenter */ = {
+			isa = PBXGroup;
+			children = (
+				74B53A511E55A6F900C6C97F /* RecommenderPersenter.swift */,
+				74B53A491E55967400C6C97F /* impl */,
+			);
+			name = Persenter;
+			sourceTree = "<group>";
+		};
+		74B53A431E5594AC00C6C97F /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				74B53A441E5594D100C6C97F /* RecommenderInteractorImpl.swift */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+		74B53A461E55954C00C6C97F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74B53A4F1E55A6DA00C6C97F /* RecommendView.swift */,
+				74B53A4C1E55A68800C6C97F /* impl */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		74B53A491E55967400C6C97F /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				74B53A4A1E5596E100C6C97F /* RecommenderPersenterImpl.swift */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+		74B53A4C1E55A68800C6C97F /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				74B53A4D1E55A6C400C6C97F /* RecommenderViewController.swift */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+		74B53A551E55A74600C6C97F /* Recommender */ = {
+			isa = PBXGroup;
+			children = (
+				74B53A561E55A74C00C6C97F /* Interactor */,
+			);
+			name = Recommender;
+			sourceTree = "<group>";
+		};
+		74B53A561E55A74C00C6C97F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				74900CA01E56908E000E59AD /* RecommenderInteractorImplSpec.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
 		74C9C7DE1E544F680033332B = {
 			isa = PBXGroup;
 			children = (
@@ -102,9 +191,9 @@
 		74C9C7E91E544F680033332B /* Douban */ = {
 			isa = PBXGroup;
 			children = (
+				74B53A3B1E558E5900C6C97F /* Recommender */,
 				74C9C7EA1E544F680033332B /* AppDelegate.swift */,
-				74C9C7EC1E544F680033332B /* FirstViewController.swift */,
-				74C9C7EE1E544F680033332B /* SecondViewController.swift */,
+				74B53A531E55A70C00C6C97F /* SecondViewController.swift */,
 				74C9C7F01E544F680033332B /* Main.storyboard */,
 				74C9C7F31E544F690033332B /* Assets.xcassets */,
 				74C9C7F51E544F690033332B /* LaunchScreen.storyboard */,
@@ -116,6 +205,7 @@
 		74C9C8001E544F690033332B /* DoubanTests */ = {
 			isa = PBXGroup;
 			children = (
+				74B53A551E55A74600C6C97F /* Recommender */,
 				74C9C8011E544F690033332B /* DoubanTests.swift */,
 				74C9C8031E544F690033332B /* Info.plist */,
 			);
@@ -335,9 +425,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C9C7EF1E544F680033332B /* SecondViewController.swift in Sources */,
+				74B53A541E55A70C00C6C97F /* SecondViewController.swift in Sources */,
 				74C9C7EB1E544F680033332B /* AppDelegate.swift in Sources */,
-				74C9C7ED1E544F680033332B /* FirstViewController.swift in Sources */,
+				74B53A4E1E55A6C400C6C97F /* RecommenderViewController.swift in Sources */,
+				74B53A501E55A6DA00C6C97F /* RecommendView.swift in Sources */,
+				74B53A3E1E558EFC00C6C97F /* RecommenderInteractor.swift in Sources */,
+				74B53A4B1E5596E100C6C97F /* RecommenderPersenterImpl.swift in Sources */,
+				74B53A521E55A6F900C6C97F /* RecommenderPersenter.swift in Sources */,
+				74B53A451E5594D100C6C97F /* RecommenderInteractorImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +441,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74C9C8021E544F690033332B /* DoubanTests.swift in Sources */,
+				74900CA11E56908E000E59AD /* RecommenderInteractorImplSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
