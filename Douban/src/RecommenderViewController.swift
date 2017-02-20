@@ -21,9 +21,7 @@ class RecommenderViewController: UIViewController, RecommendView {
   }
   
   func prepare() {
-    persenter = RecommenderPersenterImpl()
-    guard let persenter = persenter else { return }
-    persenter.view = self
+    persenter = RecommenderPersenterImpl(view: self)
   }
   
   func showLocationText() {

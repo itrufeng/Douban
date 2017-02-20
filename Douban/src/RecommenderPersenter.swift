@@ -8,9 +8,8 @@
 
 import Foundation
 
-protocol RecommenderPersenter: class {
+protocol RecommenderPersenter {
   var view: RecommendView? { get set }
   var interactor: RecommenderInteractor { get set }
   func showLocationText()
-  func displayLocationText(text: String)
 }

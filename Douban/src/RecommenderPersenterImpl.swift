@@ -9,20 +9,18 @@
 import Foundation
 
 class RecommenderPersenterImpl: RecommenderPersenter {
-  weak var view: RecommendView?
+  var view: RecommendView?
   var interactor: RecommenderInteractor
   
-  init() {
+  init(view: RecommendView) {
+    self.view = view
     interactor = RecommenderInteractorImpl()
-    interactor.persenter = self
   }
   
   func showLocationText() {
-    interactor.showCurrentLocationText()
-  }
-  
-  func displayLocationText(text: String) {
-    guard let view = view else { return }
-    view.showLocationText(text: text)
+    interactor.showCurrentLocationText { text in
+      guard let view = view else { return }
+      view.showLocationText(text: text)
+    }
   }
 }

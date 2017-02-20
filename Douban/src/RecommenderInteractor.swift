@@ -9,6 +9,5 @@
 import Foundation
 
 protocol RecommenderInteractor {
-  weak var persenter: RecommenderPersenter? { get set }
-  func showCurrentLocationText()
+  func showCurrentLocationText(completion: (_ text: String)->())
 }

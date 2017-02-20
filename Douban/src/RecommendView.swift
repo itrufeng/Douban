@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol RecommendView: class {
+protocol RecommendView {
   func showLocationText(text: String)
 }

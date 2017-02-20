@@ -9,10 +9,7 @@
 import Foundation
 
 class RecommenderInteractorImpl: RecommenderInteractor {
-  weak var persenter: RecommenderPersenter?
-  
-  func showCurrentLocationText() {
-    guard let persenter = persenter else { return }
-    persenter.displayLocationText(text: "西安")
+  func showCurrentLocationText(completion: (_ text: String)->()) {
+    completion("西安")
   }
 }
